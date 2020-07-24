@@ -3,7 +3,7 @@
 A Portfolio built with React. Used to showcase my work, testimonials, Projects and other information with recruiters.
 
 ## Preview
-![Preview](https://image.ibb.co/e5uBf0/Capture.png)
+![Preview](public/images/website_preview.png)
 
 ## How to use
 1. Clone/Download the repo.
