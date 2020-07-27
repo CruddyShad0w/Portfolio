@@ -63,7 +63,7 @@ let resumeData = {
         "Achievements":"Developed a report to highlight funding, demographic, and services rendered for Community Bridges. Provided them the means to obtain more government grant’s to supplement their income to increase services rendered. Developed an ETL pipeline to ingest data from a data lake for analysis. Provided plots developed in matplotlib and seaborn in a Jupyter Notebook for detailed analysis."
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"",
     "skills":[
       {
         "skillname":"Data Visualization",
