@@ -22,7 +22,7 @@ let resumeData = {
           "className":"fa fa-file-text"
         }
       ],
-    "aboutme":"Data analyst and Full Stack Engineer with experience in interpreting and analyzing data in order to drive successful solutions. Working knowlege of developing Full-Stack websites utilizing microservies. Proficient knowledge in statistics, mathematics, microservice, front-end development, and analytics. Excellent understanding of relation  Databases, ETL pipelines, and visualization through experience. I have developed  multiple dashboards and websites for companies to gain insight into their data in a concise manner inorder to make active  Decisions based on their info. I have obtained an advanced knowledge of the python ecosystem and  how it relates to Machine Learning, AI, and Data Analysis.",
+    "aboutme":"Data analyst and Full Stack Engineer with experience in interpreting and analyzing data in order to drive successful solutions. Working knowledge of developing Full-Stack websites utilizing microservices. Proficient knowledge in statistics, mathematics, microservice, front-end development, and analytics. Excellent understanding of relation  Databases, ETL pipelines, and visualization through experience. I have developed  multiple dashboards and websites for companies to gain insight into their data in a concise manner in order to make active  Decisions based on their info. I have obtained an advanced knowledge of the python ecosystem and  how it relates to Machine Learning, AI, and Data Analysis.",
     "address":"San Jose, CA",
     "website":"https://cruddyshad0w.github.io/Portfolio/",
     "education":[
