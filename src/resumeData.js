@@ -35,10 +35,17 @@ let resumeData = {
     ],
     "work":[
       {
-        "CompanyName":"UC Berkeley Extension",
-        "specialization":"Teacher Assistant",
+        "CompanyName":"Visions in Education",
+        "specialization":"Full Stack Developer",
         "MonthOfLeaving":"Current Employer",
         "YearOfLeaving":"",
+        "Achievements":"Developed enterprise and customer-facing web applications in Angular and Python to support student enrollment tracking and physical asset tracking at Californias largest charter school. Delivered complex enrollment tracking tools to enhance productivity and meet business needs. Delivered a physical asset tracking and repair tracking system that met government standards while adhering to a strict deadline. Utilized Python, MySQLAngular (Typescript/Javascript), cXML, GIT, WSL, and Linux in a full stack development environment."
+      },
+      {
+        "CompanyName":"UC Berkeley Extension",
+        "specialization":"Teacher Assistant",
+        "MonthOfLeaving":"November",
+        "YearOfLeaving":"2020",
         "Achievements":"Proactively mentor and track student progression; provide technical assistance and layman explanations of key concepts used in full-stack data engineering, analytics, and visualizations in Python, SQL, and JavaScript"
       },
       {
@@ -66,20 +73,20 @@ let resumeData = {
     "skillsDescription":"",
     "skills":[
       {
-        "skillname":"Data Visualization",
-        "style":"50%"
+        "skillname":"Full-Stack Development",
+        "style":"40%"
       },
       {
         "skillname":"Data engineering",
-        "style":"35%"
+        "style":"25%"
+      },
+      {
+        "skillname":"Data Visualization",
+        "style":"13%"
       },
       {
         "skillname":"Machine Learning / AI",
-        "style":"15%"
-      },
-      {
-        "skillname":"Full-Stack Development",
-        "style":"25%"
+        "style":"12%"
       }
     ],
     "portfolio":[
