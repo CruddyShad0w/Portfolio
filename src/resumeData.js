@@ -35,10 +35,17 @@ let resumeData = {
     ],
     "work":[
       {
-        "CompanyName":"Visions in Education",
-        "specialization":"Full Stack Developer",
+        "CompanyName":"SemanticBits",
+        "specialization":"Senior Full Stack Developer",
         "MonthOfLeaving":"Current Employer",
         "YearOfLeaving":"",
+        "Achievements":"Developed and maintained enterpirse applications in Angular and Typescript to support the Qualtiy Payment Program's Self-Nomination, Targeted-Review, and Exceptions process. Delievered data metrics in a dashboard format to assit the Targeted Review and Exceptions teams in monitoring key performance indicators (KPI). Worked with Business Analyst's to provide an arichtecture overview for implementation of a user managed business use case system. Provided techincal sign off on multiple production releases of the Self-Nomination, Targeted-Review, and Exceptions applications. Utilized Typescript, Mysql, Angular(Typescript), NodeJS, GIT, and Docker in a full stack development enviroment."
+      },
+      {
+        "CompanyName":"Visions in Education",
+        "specialization":"Full Stack Developer",
+        "MonthOfLeaving":"May",
+        "YearOfLeaving":"2021",
         "Achievements":"Developed enterprise and customer-facing web applications in Angular and Python to support student enrollment tracking and physical asset tracking at Californias largest charter school. Delivered complex enrollment tracking tools to enhance productivity and meet business needs. Delivered a physical asset tracking and repair tracking system that met government standards while adhering to a strict deadline. Utilized Python, MySQLAngular (Typescript/Javascript), cXML, GIT, WSL, and Linux in a full stack development environment."
       },
       {
