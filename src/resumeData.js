@@ -2,7 +2,7 @@ let resumeData = {
   imagebaseurl: 'https://cruddyshad0w.github.io/Portfolio/',
   name: 'Kyle Hays',
   email: ' kyle.m.hays@gmail.com',
-  role: 'Full-Stack Developer and Data Scientist',
+  role: 'Full-Stack Developer',
   linkedinId: ' https://www.linkedin.com/in/kylehays800/',
   roleDescription:
     ' I like to develop websites utilizing new technologies, visualize data in an engaging format, as well as create machine learning algorithims to make meaningful predictions',
@@ -24,7 +24,7 @@ let resumeData = {
     },
   ],
   aboutme:
-    'Data analyst and Full Stack Engineer with experience in interpreting and analyzing data in order to drive successful solutions. Working knowledge of developing Full-Stack websites utilizing microservices. Proficient knowledge in statistics, mathematics, microservice, front-end development, and analytics. Excellent understanding of relation  Databases, ETL pipelines, and visualization through experience. I have developed  multiple dashboards and websites for companies to gain insight into their data in a concise manner in order to make active  Decisions based on their info. I have obtained an advanced knowledge of the python ecosystem and  how it relates to Machine Learning, AI, and Data Analysis.',
+    'Experienced Senior Full Stack Engineer with a proven track record in developing enterprise applications and web solutions. Skilled in Angular, NestJS, and other technologies, I have successfully delivered critical projects and data metrics to support key performance indicators. With a background in teaching and mentoring, I excel at providing technical assistance and explaining complex concepts. I have a strong passion for leveraging innovative technologies to create user-friendly applications.',
   address: 'San Jose, CA',
   website: 'https://cruddyshad0w.github.io/Portfolio/',
   education: [
@@ -42,7 +42,7 @@ let resumeData = {
       MonthOfLeaving: 'Current Employer',
       YearOfLeaving: '',
       Achievements:
-        "Developed and maintained enterpirse applications in Angular and Typescript to support the Qualtiy Payment Program's Self-Nomination, Targeted-Review, and Exceptions process. Delievered data metrics in a dashboard format to assit the Targeted Review and Exceptions teams in monitoring key performance indicators (KPI). Worked with Business Analyst's to provide an arichtecture overview for implementation of a user managed business use case system. Provided techincal sign off on multiple production releases of the Self-Nomination, Targeted-Review, and Exceptions applications. Utilized Typescript, Mysql, Angular(Typescript), NodeJS, GIT, and Docker in a full stack development enviroment.",
+        "Developed and maintained enterprise applications in Angular and NestJS to support the Quality Payment Program's Self-Nomination, Targeted-Review, and Exceptions process. Delivered data metrics in a dashboard format to assist the Targeted Review and Exceptions teams in monitoring key performance indicators (KPI). Worked with Business Analyst's to provide an architecture overview for implementation of a user managed business use case system. Provided technical sign off on multiple production releases of the Self-Nomination, Targeted-Review, and Exceptions applications. Utilized Typescript, MySQL, Angular, RXJS, NestJS, GIT, AWS and Docker in a full stack development environment.",
     },
     {
       CompanyName: 'Visions in Education',
