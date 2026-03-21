@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-export default class Porfolio extends Component {
+export default class Portfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
@@ -11,10 +11,18 @@ export default class Porfolio extends Component {
               {resumeData.portfolio &&
                 resumeData.portfolio.map((item) => {
                   return (
-                    <div className="columns portfolio-item">
-                      <div className="item-wrap" href={`${item.location}`}>
-                        <a target="_blank" rel="noopener noreferrer" href={`${item.location}`}>
-                          <img src={`${item.imgurl}`} className="item-img" alt="Resuem Portfolio work" />
+                    <div key={item.name} className="columns portfolio-item">
+                      <div className="item-wrap">
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={
+                            item.location.startsWith('http')
+                              ? item.location
+                              : `${process.env.PUBLIC_URL}/${item.location}`
+                          }
+                        >
+                          <img src={`${process.env.PUBLIC_URL}/${item.imgurl}`} className="item-img" alt={item.name} />
                           <div className="overlay">
                             <div className="portfolio-item-meta">
                               <h5>{item.name}</h5>

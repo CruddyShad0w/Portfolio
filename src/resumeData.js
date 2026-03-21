@@ -1,9 +1,9 @@
-let resumeData = {
+const resumeData = {
   imagebaseurl: 'https://cruddyshad0w.github.io/Portfolio/',
   name: 'Kyle Hays',
-  email: ' kyle.m.hays@gmail.com',
+  email: 'kyle.m.hays@gmail.com',
   role: 'Full-Stack Developer',
-  linkedinId: ' https://www.linkedin.com/in/kylehays800/',
+  linkedinId: 'https://www.linkedin.com/in/kylehays800/',
   roleDescription:
     ' I like to develop websites utilizing new technologies, visualize data in an engaging format, as well as create machine learning algorithims to make meaningful predictions',
   socialLinks: [
@@ -19,7 +19,7 @@ let resumeData = {
     },
     {
       name: 'resume',
-      url: 'files/Kyle_Hays_Resume_V5.pdf',
+      url: `${process.env.PUBLIC_URL}/files/Kyle_Hays_Resume_V5.pdf`,
       className: 'fa fa-file-text',
     },
   ],

@@ -17,7 +17,7 @@ export default class Testimonials extends Component {
                   {resumeData.testimonials &&
                     resumeData.testimonials.map((item) => {
                       return (
-                        <li>
+                        <li key={item.name}>
                           <blockquote>
                             <p>{item.description}</p>
                             <cite>{item.name}</cite>

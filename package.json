@@ -2,14 +2,12 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://CruddyShad0w.github.io/Portfolio",
+  "homepage": "https://CruddyShad0w.github.io/Portfolio",
   "dependencies": {
-    "-": "0.0.1",
-    "gh-pages": "^3.1.0",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
-    "react-scripts": "2.1.1",
-    "save-dev": "0.0.1-security"
+    "gh-pages": "^6.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,12 +27,11 @@
   "browserslist": [
     ">0.2%",
     "not dead",
-    "not ie <= 11",
     "not op_mini all"
   ],
   "devDependencies": {
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
-    "prettier": "2.7.1"
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "prettier": "^3.8.1"
   }
 }
