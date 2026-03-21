@@ -2,7 +2,7 @@ const resumeData = {
   imagebaseurl: 'https://cruddyshad0w.github.io/Portfolio/',
   name: 'Kyle Hays',
   email: 'kyle.m.hays@gmail.com',
-  role: 'Full-Stack Developer',
+  role: 'Senior Full Stack Engineer',
   linkedinId: 'https://www.linkedin.com/in/kylehays800/',
   roleDescription:
     ' I like to develop websites utilizing new technologies, visualize data in an engaging format, as well as create machine learning algorithims to make meaningful predictions',
@@ -19,7 +19,7 @@ const resumeData = {
     },
     {
       name: 'resume',
-      url: `${process.env.PUBLIC_URL}/files/Kyle_Hays_Resume_V5.pdf`,
+      url: `${process.env.PUBLIC_URL}/files/Kyle_Hays_Resume.pdf`,
       className: 'fa fa-file-text',
     },
   ],
@@ -29,20 +29,20 @@ const resumeData = {
   website: 'https://cruddyshad0w.github.io/Portfolio/',
   education: [
     {
-      UniversityName: 'California State University - Monterey Bay',
-      specialization: 'Computer Science - Data Science',
-      MonthOfPassing: 'January',
-      YearOfPassing: '2020',
+      UniversityName: 'California State University at Monterey Bay',
+      specialization: 'B.S. in Computer Science - Data Science',
+      MonthOfPassing: 'Fall',
+      YearOfPassing: '2019',
     },
   ],
   work: [
     {
-      CompanyName: 'SemanticBits',
-      specialization: 'Senior Full Stack Developer',
-      MonthOfLeaving: 'Current Employer',
+      CompanyName: 'Tria Federal',
+      specialization: 'Senior Full Stack Engineer',
+      MonthOfLeaving: 'Present',
       YearOfLeaving: '',
       Achievements:
-        "Developed and maintained enterprise applications in Angular and NestJS to support the Quality Payment Program's Self-Nomination, Targeted-Review, and Exceptions process. Delivered data metrics in a dashboard format to assist the Targeted Review and Exceptions teams in monitoring key performance indicators (KPI). Worked with Business Analyst's to provide an architecture overview for implementation of a user managed business use case system. Provided technical sign off on multiple production releases of the Self-Nomination, Targeted-Review, and Exceptions applications. Utilized Typescript, MySQL, Angular, RXJS, NestJS, GIT, AWS and Docker in a full stack development environment.",
+        'Lead development across three high-visibility enterprise applications (Self-Nomination, Targeted Review, Exceptions) built using Angular (TypeScript), NestJS (TypeScript/Express), New Relic, and AWS infrastructure. Serve as the technical point of contact in the absence of team leads, authoring technical specifications, mentoring junior engineers, and performing final production sign-offs. Architected data analytics dashboards and visualizations with D3.js; authored the majority of SQL metric logic, now part of a scalable shared widget library. Built and deployed services using Docker containers on AWS, ensuring stability, scalability, and CI/CD compliance. Spearheaded accessibility efforts, implementing 508 compliance across all applications and passing all government audits. Migrated legacy applications to modern versions, improving stability, security, and developer productivity. Improved Jest unit tests in CI/CD pipeline, decreasing build time by 30%. Implemented database query improvements in TypeORM and MySQL, reducing application load time by 80%.',
     },
     {
       CompanyName: 'Visions in Education',
@@ -50,7 +50,7 @@ const resumeData = {
       MonthOfLeaving: 'May',
       YearOfLeaving: '2021',
       Achievements:
-        'Developed enterprise and customer-facing web applications in Angular and Python to support student enrollment tracking and physical asset tracking at Californias largest charter school. Delivered complex enrollment tracking tools to enhance productivity and meet business needs. Delivered a physical asset tracking and repair tracking system that met government standards while adhering to a strict deadline. Utilized Python, MySQLAngular (Typescript/Javascript), cXML, GIT, WSL, and Linux in a full stack development environment.',
+        "Developed web applications in Angular and Python to streamline student enrollment and physical asset tracking, supporting over 5,000 students at California's largest charter school. Built advanced enrollment tracking tools that boosted productivity, allowing for faster student enrollment and reducing manual tracking errors. Developed a physical asset and repair tracking system, ensuring compliance with government standard, and completed the project 2 weeks ahead of the deadline.",
     },
     {
       CompanyName: 'UC Berkeley Extension',
@@ -58,7 +58,7 @@ const resumeData = {
       MonthOfLeaving: 'November',
       YearOfLeaving: '2020',
       Achievements:
-        'Proactively mentor and track student progression; provide technical assistance and layman explanations of key concepts used in full-stack data engineering, analytics, and visualizations in Python, SQL, and JavaScript',
+        'Mentored students in full-stack data engineering and visualizations using Python, SQL, and JavaScript. Improving comprehension rates and ensuring 100% course completion for mentored students.',
     },
     {
       CompanyName: 'Capital Insurance Group',
@@ -66,7 +66,7 @@ const resumeData = {
       MonthOfLeaving: 'December',
       YearOfLeaving: '2019',
       Achievements:
-        'Developed a Data visualization dashboard in PowerBI to track KPI’s related to call center performance. Included metrics such as issue tracking, average handle time, and key issue influencer to improve response time in the call center. Developed an ETL pipeline linked between PowerBI and Jira to extract data for visualization. ',
+        "Built a PowerBI dashboard to track call center KPI's including issue tracking, average handle time, and key issue influencer to improve response time in the call center and reduce overall unresolved issues. Developed an ETL pipeline to link PowerBI and Jira automating data extraction leading to quicker and more accurate visualizations for decision-making.",
     },
     {
       CompanyName: 'California State University - Monterey Bay',
@@ -82,7 +82,7 @@ const resumeData = {
       MonthOfLeaving: 'May',
       YearOfLeaving: '2019',
       Achievements:
-        'Developed a report to highlight funding, demographic, and services rendered for Community Bridges. Provided them the means to obtain more government grant’s to supplement their income to increase services rendered. Developed an ETL pipeline to ingest data from a data lake for analysis. Provided plots developed in matplotlib and seaborn in a Jupyter Notebook for detailed analysis.',
+        "Developed a report to highlight funding, demographic, and services rendered for Community Bridges. Provided them the means to obtain more government grant's to supplement their income to increase services rendered. Developed an ETL pipeline to ingest data from a data lake for analysis. Provided plots developed in matplotlib and seaborn in a Jupyter Notebook for detailed analysis.",
     },
   ],
   skillsDescription: '',
@@ -92,7 +92,7 @@ const resumeData = {
       style: '40%',
     },
     {
-      skillname: 'Data engineering',
+      skillname: 'Data Engineering',
       style: '25%',
     },
     {
@@ -106,8 +106,20 @@ const resumeData = {
   ],
   portfolio: [
     {
+      name: 'Trip GPT',
+      description: 'AI Trip Planning',
+      imgurl: 'images/portfolio/tripgpt.png',
+      location: 'https://github.com/CruddyShad0w',
+    },
+    {
+      name: 'Agent Swarm',
+      description: 'AI Market Analysis',
+      imgurl: 'images/portfolio/agentswarm.png',
+      location: 'https://github.com/CruddyShad0w',
+    },
+    {
       name: 'Data Analytics Dashboard',
-      description: 'Data visualization',
+      description: 'Data Visualization',
       imgurl: 'images/portfolio/CIG.png',
       location: 'images/portfolio/Capital Insurance - Team 6.pdf',
     },
