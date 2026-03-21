@@ -24,9 +24,14 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <script>
       (function () {
-        var t = localStorage.getItem('theme');
-        if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
-        document.documentElement.setAttribute('data-theme', t);
+        var saved = localStorage.getItem('theme');
+        var system = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', saved || system);
+        window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', function (e) {
+          if (!localStorage.getItem('theme')) {
+            document.documentElement.setAttribute('data-theme', e.matches ? 'light' : 'dark');
+          }
+        });
       })();
     </script>
     <div id="root"></div>

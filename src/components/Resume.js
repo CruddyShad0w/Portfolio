@@ -50,14 +50,13 @@ export default function Resume({ resumeData }) {
                     <h4>{item.CompanyName}</h4>
                     <p className="role">{item.specialization}</p>
                     <p className="date">
+                      {item.MonthOfStarting && `${item.MonthOfStarting} ${item.YearOfStarting} - `}
                       {item.MonthOfLeaving === 'Present' ? 'Present' : `${item.MonthOfLeaving} ${item.YearOfLeaving}`}
                     </p>
                     <ul className="achievements">
-                      {splitAchievements(item.Achievements)
-                        .slice(0, 4)
-                        .map((achievement, j) => (
-                          <li key={j}>{achievement}</li>
-                        ))}
+                      {splitAchievements(item.Achievements).map((achievement, j) => (
+                        <li key={j}>{achievement}</li>
+                      ))}
                     </ul>
                   </div>
                 ))}
@@ -80,7 +79,7 @@ export default function Resume({ resumeData }) {
                   </h4>
                   <p className="role">{item.specialization}</p>
                   <p className="date">
-                    {item.MonthOfPassing} {item.YearOfPassing}
+                    Graduated: {item.MonthOfPassing} {item.YearOfPassing}
                   </p>
                 </div>
               ))}

@@ -39,6 +39,8 @@ const resumeData = {
     {
       CompanyName: 'Tria Federal',
       specialization: 'Senior Full Stack Engineer',
+      MonthOfStarting: 'May',
+      YearOfStarting: '2021',
       MonthOfLeaving: 'Present',
       YearOfLeaving: '',
       Achievements:
@@ -47,6 +49,8 @@ const resumeData = {
     {
       CompanyName: 'Visions in Education',
       specialization: 'Full Stack Developer',
+      MonthOfStarting: 'September',
+      YearOfStarting: '2020',
       MonthOfLeaving: 'May',
       YearOfLeaving: '2021',
       Achievements:
@@ -55,6 +59,8 @@ const resumeData = {
     {
       CompanyName: 'UC Berkeley Extension',
       specialization: 'Teacher Assistant',
+      MonthOfStarting: 'April',
+      YearOfStarting: '2020',
       MonthOfLeaving: 'November',
       YearOfLeaving: '2020',
       Achievements:
@@ -63,6 +69,8 @@ const resumeData = {
     {
       CompanyName: 'Capital Insurance Group',
       specialization: 'Data Analyst',
+      MonthOfStarting: 'September',
+      YearOfStarting: '2019',
       MonthOfLeaving: 'December',
       YearOfLeaving: '2019',
       Achievements:
@@ -71,6 +79,8 @@ const resumeData = {
     {
       CompanyName: 'California State University - Monterey Bay',
       specialization: 'Teacher Assistant',
+      MonthOfStarting: 'January',
+      YearOfStarting: '2019',
       MonthOfLeaving: 'December',
       YearOfLeaving: '2019',
       Achievements:
@@ -79,6 +89,8 @@ const resumeData = {
     {
       CompanyName: 'Community Bridges',
       specialization: 'Data Analyst',
+      MonthOfStarting: 'January',
+      YearOfStarting: '2019',
       MonthOfLeaving: 'May',
       YearOfLeaving: '2019',
       Achievements:

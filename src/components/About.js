@@ -18,20 +18,26 @@ export default function About({ resumeData }) {
   }, []);
 
   const techStack = [
-    'Angular',
     'TypeScript',
-    'NestJS',
-    'React',
+    'JavaScript',
     'Python',
-    'D3.js',
+    'MySQL',
+    'Angular',
+    'React',
+    'NestJS',
+    'Express',
+    'Flask',
     'AWS',
     'Docker',
-    'MySQL',
-    'Node.js',
-    'New Relic',
+    'Swagger',
+    'PowerBI',
+    'Jira',
+    'OpenAI API',
+    'D3.js',
+    'Numpy',
+    'Pandas',
     'CI/CD',
-    'Jest',
-    'TypeORM',
+    '508 Accessibility',
   ];
 
   return (
